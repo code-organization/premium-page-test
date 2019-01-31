@@ -1,0 +1,2468 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width">
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/spurs/Schad/css/EloquaCSSmin.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,900" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script>
+
+        var _elqQ = _elqQ || [];
+        _elqQ.push(['elqSetSiteId', '602383747']);
+        _elqQ.push(['elqUseFirstPartyCookie', 'fpc.spurs.com']);
+        _elqQ.push(['elqTrackPageView']);
+
+        (function () {
+            function async_load() {
+                var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true;
+                s.src = '//img04.en25.com/i/elqCfg.min.js';
+                var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+            }
+            if (window.addEventListener) window.addEventListener('DOMContentLoaded', async_load, false);
+            else if (window.attachEvent) window.attachEvent('onload', async_load);
+        })();
+
+
+    </script>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-4027458-2', 'auto');
+        ga('send', 'pageview');
+    </script>
+
+
+    <style>
+
+        .gray-div {
+            background-color: #F9F9F9;
+            border-top: 1px solid #909499;
+            border-bottom: 1px solid #909499;
+            padding-top: 30px;
+            padding-bottom: 60px;
+        }
+
+        .white-div {
+            background-color: #222 !important;
+        }
+
+        .dahill-text{padding:2em;}
+
+        .investment-options {
+            padding-bottom: 20px;
+        }
+
+        .panel-default > .panel-heading {
+            border-radius: 0 !important;
+            background-color: #fff !important;
+            background-image: none !important;
+        }
+
+        .card {
+            border-radius: 0 !important;
+            background-color: #fff !important;
+            background-image: none !important;
+            margin: 10px;
+        }
+
+        .card-header {
+            width: 100%;
+            background-color: #222;
+            color: #fff;
+        }
+
+        .card-header:hover {
+            background-color: #333333
+        }
+
+        .btn-link:hover {
+            color: #fff;
+        }
+        .btnspacing{width:100%;}
+        .suite-titles{color:#222; text-align: center; padding-top:10px;font-family: 'Open Sans', sans-serif; font-weight: 700;}
+        .icon-list{font-family: 'Lato', sans-serif;}
+        .card-body {
+            margin-bottom: 10px;
+            padding: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            background-color: #fff;
+            color: #222;
+            border-bottom: solid gray 1px;
+            border-left: solid gray 1px;
+            border-right: solid gray 1px;
+        }
+
+        .card-body li {
+            list-style-type: none;
+        }
+
+        .panel {
+            border-radius: 0 !important;
+            background-color: #ffffff !important;
+        }
+
+        .accordion-title {
+            padding-left: 10px;
+            display: inline-block;
+        }
+
+        .accordion-img {
+            margin-right: 10px;
+            float: left;
+        }
+
+        .accordion-img-end {
+            margin-right: 10px;
+            float: right;
+        }
+
+        .peer {
+            text-align: center
+        }
+
+        .peer-text {
+            padding-top: 120px;
+            padding-left: 0px;
+            text-align: center;
+        }
+
+        .nbaCvpWrapper {
+            max-width: 500px;
+        }
+
+        .carousel-control {
+            width: 0 !important;
+        }
+
+        .subtitle {
+            font-size: 20px !important;
+        }
+
+        .menu-link {
+            padding: 10px;
+            bottom: 50px;
+            color: #fff;
+            border: solid #fff 3px;
+            margin-top: -100px;
+            font-size: 25px;
+            position: relative;
+            margin-left: 60px;
+            margin-right: 60px;
+        }
+
+
+
+        li {
+            list-style-type: none;
+        }
+
+        .list-links {
+            padding: 12px 14px 0 14px;
+            font-size: 13px;
+            letter-spacing: 2px;
+            text-align: center;
+
+        }
+
+        .col-md-4 {
+            padding: 0 !important;
+        }
+
+        .col-md-12 {
+            padding: 0 !important;
+        }
+        .suite-btn{padding-top:12px !important; padding-left:30px; font-size: 13px; letter-spacing:2px; color:#777 !important;}
+        html, body {
+            font-family: 'Roboto', sans-serif !important;
+            background-color: #222222;
+            color: #fff;
+        }
+
+        .small-accordion{background-color: #fff; padding-bottom:25px; }
+
+        .dropbtn {
+            background-color: #e7e7e7;
+            color: #000;
+
+            border: none;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+
+        /* Links inside the dropdown */
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            font-family: 'Roboto', sans-serif;
+
+        }
+
+
+
+        /* Show the dropdown menu on hover */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /* Change the background color of the dropdown button when the dropdown content is shown */
+        .dropdown:hover .dropbtn {
+            background-color: #333;
+            color: #fff;
+        }
+
+        a {
+            color: #777;
+        }
+
+        .nav-tabs > li > a {
+            margin-right: 2px;
+            line-height: 1.42857143;
+            border: 1px solid transparent;
+            border-radius: 0 !important;
+            float: none !important;
+        }
+
+
+        .navbar-default .regnav>li>a{letter-spacing: 2px; font-size:12px;}
+
+        a:hover {
+            color: #000;
+            text-decoration: none
+        }
+
+        h1, h2, h3 {
+            font-weight: 700;
+            margin: 0 auto;
+            font-family: 'Open Sans Condensed', sans-serif;
+        }
+
+        .list-icons {
+            color: #222;
+            list-style-type: none !important;
+            float: left;
+            /*padding-bottom: 14px;*/
+            width:100%;
+        }
+
+        .info-title {
+            color: #222;
+            list-style-type: none !important;
+            text-align: center;
+
+            font-family: 'Lato', sans-serif;
+            margin: 17px;
+            font-size: 15px;
+            line-height: 27px;
+        }
+
+        .buy-now {
+            margin-top: 120px;
+            background-color: #28a745;
+
+            height: 60px;
+            color: #fff;
+            font-size: 20px;
+            border-radius: 0;
+            border: .5px solid #43952A;
+        }
+
+        .purchasenav {
+            background-color: #28a745;
+            color: #fff;
+            letter-spacing: 2px;
+            font-size:13px;
+        }
+        .btn-primary{background-image:linear-gradient(to bottom, #28a745, #43952A); border-radius: 0; }
+        .elq-form input{width:80% !important}
+
+
+        .list-items {
+            padding: 12px 15px 0 15px;
+
+        }
+
+        .fixed-background {
+            text-align: center;
+            margin-left: -21px;
+            margin-right: -25px;;
+            position: relative;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        .blackout-btn {
+
+            border-left: dashed;
+            display: inline-block;
+            background-color: rgba(0, 0, 0, 0.7)
+        }
+
+        .button-text {
+            color: #fff !important;
+            font-size: 18px;
+            letter-spacing: 3px;
+            font-family: 'Roboto', sans-serif;
+            text-transform: uppercase;
+
+        }
+
+        #_nba_cvp_41da22_external_41da22 {
+            width: 75%;
+        }
+
+        @media screen and (min-width: 100px) {
+            .dahill-club-amenities {
+                margin-top: 125px;
+            }
+
+            .small-pic {
+                width: 30px !important;
+                height: 30px !important;
+            }
+
+
+
+            #video-dahill {
+                display: none;
+            }
+
+            .additional-info-title {
+                text-align: center;
+            }
+
+            .accordion-title {
+                padding-left: 0;
+            }
+
+            .accordion-img {
+                margin-right: 0;
+            }
+
+            .carousel-inner > .item > img {
+                line-height: 1;
+                height: 150px;
+                width: 620px;
+                margin-left: 30px;
+            }
+
+            .nav-tabs > li {
+                /*display: block;*/
+                border: solid #959191 1px;
+            }
+
+            .navbar-collapse.collapse {
+                display: block;
+            }
+
+
+            .dropdown {
+                position: relative;
+                display: block;
+                padding: 0 !important;
+                margin: 0 !important;
+                font-family: 'Roboto', sans-serif
+            }
+
+            .navbar-fixed-top .navbar-collapse {
+                height: 45px;
+                padding-top: 20px;
+            }
+            .purchasenav{display:none !important;}
+
+            .navbar-brand {
+                display: none;
+            }
+
+            .dropdown {
+                display: none;
+            }
+
+            .hidden-mobile-links {
+                display: block;
+            }
+
+            .hidden-mobile-links > li {
+                text-align: center;
+                padding: 4px;
+            }
+            .blackout-btn {
+                width: 100%;
+                height: 75px;
+                margin: 20px;
+                padding-top: 25px;
+            }
+            .accordion-div{margin:0;}
+            #menu-image{display: none;}
+            .fixed-buttons{display: none;}
+            #mobile-icon{display: inline-block; width:175px; height:45px;}
+            .additional-links{display: none;}
+            .icon-list{margin-top:15px;}
+            .list-icons{padding-left:0; font-size:13px;}
+            .fixed-background{display:none;}
+            .dahill-row{margin-top:100px; background-color:#dddddd; }
+            #dropdown-mobile{display: inline-block}
+            #dropdown-main{display:none;}
+            .navbar-fixed-top .navbar-collapse {
+                padding-top: 0px;}
+            .navbar-collapse{padding-left:0 !important;}
+        }
+
+        @media screen and (min-width: 490px) {
+
+            .dahill-row{padding-top:0;}
+            .carousel-inner > .item > img {
+                line-height: 1;
+                height: 310px;
+                width: 600px;
+            }
+
+            .nav-tabs > li {
+                display: block
+            }
+
+            .navbar-collapse.collapse {
+                display: inline-block !important
+            }
+
+            .top-nav {
+                height: 62px;
+            }
+
+            .navbar-fixed-top .navbar-collapse {
+                height: 45px;
+            }
+
+            .navbar-brand {
+                display: block;
+            }
+            #dropdown-mobile{display: inline;}
+
+            .hidden-mobile-links {
+                display: none;
+            }
+            .blackout-btn {
+                /*width: 100%;*/
+                height: 75px;
+                margin: 20px;
+                padding-top: 25px;
+            }
+
+            .additional-links{display:none;}
+            .list-icons{padding-left:100px;}
+            .fixed-background{display:block; height: 900px; padding-top:0;}
+            #mobile-icon{display:inline-block;}
+
+
+        }
+
+        @media screen and (min-width: 768px) {
+            .dropdown{text-align: center;}
+            .fixed-buttons{display: block;}
+            #menu-image{display: inline-block}
+            .purchasenav{display:inline !important;}
+            #dropdown-main {
+                display: inline-block;
+            }
+            #dropdown-mobile{display: none;}
+
+            .accordion-title {
+                padding-left: 10px;
+            }
+
+            .accordion-img {
+                margin-right: 10px;
+            }
+
+
+
+            .carousel-inner > .item > img {
+                line-height: 1;
+                height: 230px;
+                width: 375px;
+                margin-left: 0 !important;
+            }
+
+            .nav-tabs > li {
+                display: inline-block;
+            }
+
+            .navbar-nav > li > a {
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+
+            .top-nav {
+                max-height: 50px;
+            }
+
+
+            #dropdown-main {
+                position: relative;
+                display: inline-block;
+                padding: 0 !important;
+                margin: 0 !important;
+            }
+
+            .navbar-fixed-top .navbar-collapse {
+                max-height: 340px;
+                padding-top: 0 !important;
+            }
+
+            .blackout-btn {
+
+                height: 75px;
+                margin: 20px;
+                padding-top: 25px;
+            }
+
+            .accordion-div {
+                margin: 30px 100px 0 100px;
+            }
+
+            #menu-image {
+                display: inline-block
+            }
+
+            .additional-links {
+                display: none;
+            }
+
+            .list-icons {
+                padding-left: 300px;
+            }
+            .fixed-background{height: 1000px;}
+            #mobile-icon{display:none;}
+        }
+
+
+        @media screen and (min-width: 992px) {
+
+            .accordion-title {
+                padding-left: 10px;
+            }
+
+            .accordion-img {
+                margin-right: 10px;
+            }
+
+
+            .additional-links{display: inline-block;}
+            .carousel-inner > .item > img {
+                line-height: 1;
+                height: 220px;
+                width: 620px;
+            }
+
+
+
+            .nav-tabs > li {
+                display: inline-block;
+            }
+
+            .blackout-btn {
+                width:290px;
+                height: 75px;
+                margin: 20px;
+                padding-top: 25px;
+            }
+            .list-icons{padding-left:0;}
+            .fixed-background{height: 700px;}
+        }
+
+
+
+
+
+
+        #preloader {
+            position:fixed;
+            top:0;
+            left:0;
+            right:0;
+            bottom:0;
+            background-color:#fff; /* change if the mask should have another color then white */
+            z-index:99; /* makes sure it stays on top */
+        }
+
+        #status {
+            width:200px;
+            height:200px;
+            position:absolute;
+            left:50%; /* centers the loading animation horizontally one the screen */
+            top:50%; /* centers the loading animation vertically one the screen */
+            background-image:url(https://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/spurs/Schad/img/Spurs/2018SeasonTickets/Blocks.gif); /* path to your loading animation */
+            background-repeat:no-repeat;
+            background-position:center;
+            margin:-100px 0 0 -100px; /* is width and height divided by two */
+        }
+
+        .region,  .block-system, .content, .field-name-body {height: 100%;}
+
+        html, body {font-family: 'Roboto', sans-serif !important;}
+
+        .navbar-brand {
+            padding:0;
+        }
+
+        .navbar-default .regnav>li>a {
+            color: #777;
+            font-size: 12px;
+            letter-spacing: 2px;
+            -webkit-transition: all 0.3s ease-in-out;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .navbar-default .regnav>li>a:hover, .navbar-default .regnav>li>a:focus {
+            background:#333;
+            color: #fff;
+        }
+
+        .navbar-default .navbar-right>li>a {
+            background-color:#28a745;;
+            color:#fff;
+            font-size: 12px;
+            letter-spacing: 2px;
+            -webkit-transition: all 0.3s ease-in-out;
+            -moz-transition: all 0.3s ease-in-out;
+            -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .navbar-default .navbar-right>li>a:hover, .navbar-default .navbar-right>li>a:focus {
+            background-color: #158c30;
+            text-decoration:none;
+            color: #fff;
+        }
+
+
+        .navbar-default .navbar-collapse{
+            background-color: #e7e7e7;
+        }
+
+        .navbar-nav {margin:0;}
+
+        .navbar-right {margin-right:0;}
+
+        body, html {
+
+            height: 100%;
+
+            margin: 0;
+
+            font: 400 15px/1.8 "Lato", sans-serif;
+
+            color: #777;
+
+        }
+
+
+
+        .bgimg-1, .bgimg-2, .bgimg-3 {
+
+            position: relative;
+
+            background-attachment: fixed;
+
+            background-position: center;
+
+            background-repeat: no-repeat;
+
+            background-size: cover;
+
+
+
+        }
+
+        .bgimg-1 {
+            min-height: 100%;
+        }
+
+
+        @media screen and (min-width:768px){
+            .bgimg-1 {
+                background-image: url("https://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/spurs/Schad/img/Spurs/courtbg.jpg");}
+            .bgimg-2 {background-image: url("https://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/spurs/Schad/img/Spurs/2018SeasonTickets/manbg.jpg"); min-height: 800px;}
+            .bgimg-3 {background-image: url("https://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/spurs/Schad/img/Spurs/2018SeasonTickets/ladybg.jpg"); min-height: 400px;
+            }
+        }
+
+        @media screen and (max-width:768px){
+            video{display:none;}
+            .bgimg-1 {background-image: url("https://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/spurs/Schad/img/Spurs/2018SeasonTickets/stmcoyote.jpg");}
+            .bgimg-2 {background-image: url("https://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/spurs/Schad/img/Spurs/2018SeasonTickets/manbg.jpg");min-height: 400px;}
+            .bgimg-3 {background-image: url("https://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/spurs/Schad/img/Spurs/2018SeasonTickets/ladybg.jpg");min-height: 400px;}
+        }
+
+
+
+        .caption span.border {background-color: #111;color: #fff;padding: 18px;font-size: 25px;letter-spacing: 10px;
+        }
+
+        h3 {letter-spacing: 5px;text-transform: uppercase;font: 20px "Lato", sans-serif;color: #111;}
+
+
+
+        /* Turn off parallax scrolling for tablets and phones */
+
+        @media only screen and (max-device-width: 1024px) {
+            .bgimg-1, .bgimg-2, .bgimg-3 {background-attachment: scroll;}
+        }
+        .headerbuttons {display:inline-block;}
+
+        @media screen and (max-width:1317px) {
+            .headerbuttons {display:none;}
+        }
+
+        .headerbtn{
+            display:inline-block;
+            margin:0 .5em;
+            padding: 3.8em 3em;
+            color:#fff !important;
+            border-left:2px dashed #fff;
+            font-size:20px;
+            letter-spacing:5px;
+            font-weight:300;
+            background-color:rgba(0,0,0,0.7);
+            -webkit-transition: all 0.4s ease;
+            -moz-transition: all 0.4s ease;
+            -o-transition: all 0.4s ease;
+            transition: all 0.4s ease;
+        }
+
+        .headerbtn:hover{
+            background-color:#fff;
+            margin:0 .5em;
+            padding: 3.8em 3em;
+            border:2px solid #fff;
+            color:#333 !important;
+            font-size:20px;
+        }
+
+        .groupbtn1{display:inline-block; padding: 1.8em 3em; color:#fff !important; border-left:2px solid #fff;
+            border-top:2px solid #fff; border-right:0; border-bottom:2px solid #fff; font-size:20px; background-color:#2e2c2d; -webkit-transition: all 0.4s ease; -moz-transition: all 0.4s ease; -o-transition: all 0.4s ease; transition: all 0.4s ease;
+        }
+        .groupbtn2{margin-right:1px;display:inline-block;padding: 1.8em 3em;color:#fff !important;border-left:2px dashed #fff;border-top:2px solid #fff;border-right:2px dashed #fff;border-bottom:2px solid #fff;font-size:20px;background-color:#2e2c2d;-webkit-transition: all 0.4s ease;-moz-transition: all 0.4s ease;-o-transition: all 0.4s ease;transition: all 0.4s ease;}
+
+        .groupbtn3{
+            display:inline-block;
+            padding: 1.8em 3em;
+            color:#fff !important;
+            border-left:0;
+            border-top:2px solid #fff;
+            border-right:2px solid #fff;
+            border-bottom:2px solid #fff;
+            font-size:20px;
+            background-color:#2e2c2d;
+            -webkit-transition: all 0.4s ease;
+            -moz-transition: all 0.4s ease;
+            -o-transition: all 0.4s ease;
+            transition: all 0.4s ease;
+        }
+
+        .groupbtn1:hover, .groupbtn2:hover, .groupbtn3:hover{
+            background-color:#fff;
+            padding: 1.8em 3em;
+            border:2px solid #fff;
+            color:#333 !important;
+            font-size:20px;
+        }
+
+        h2 {font-weight:900;}
+        h3 {font-weight:300;}
+
+        .sectionspace {
+            padding:2em;
+        }
+
+        .benefitrow {min-height:100px;margin-bottom:2em;}
+
+        .benefiticon img{max-width:100px;margin:0 auto;}
+
+        @media screen and (min-width:768px) {
+            .stmlogo {max-width:600px;margin:0;display:inline-block;}
+            .homecourttext {font-weight:300;background-color:transparent !important;font-size:40px;color: #f7f7f7;}
+            .benefittext {text-align:left;}
+            .caption1 {top:50%;}
+            .list-icons img {margin:.5em 1em;}
+            .caption {position: absolute;left: 0;top: 40%;width: 100%;text-align: center;color: #000;}
+
+        }
+        @media screen and (max-width:768px) {
+            .stmlogo {max-width: 300px;margin:0 auto;}
+            h2 {font-size:22px;letter-spacing:10px !important}
+            h3 {font-size:18px;}
+            .caption1 {top:40%;}
+            .homecourttext {background-color:transparent !important;font-size:20px !important;color: #f7f7f7;}
+            .benefittext {text-align:center;}
+            .caption {position: absolute;bottom:0;width: 100%;text-align: center;color: #000;}
+
+        }
+
+        @media screen and (min-width:1010px) {
+            .elq-form .field-style._50 {width: 46%;}
+            elq-form .field-style._50_left {width: 46%;}
+        }
+
+        @media screen and (max-width:1010px) {
+            .elq-form .field-style._50 {width: 95%}
+            .elq-form .field-style._50_left {width: 95%;}}
+
+
+        .pricingheader {
+            background-color: #777 !important;
+            color: #fff !important;
+            font-size: 12px;
+            font-weight: 200;
+            padding: 1em 0;
+        }
+
+        .pricingrow {
+            color:#000;
+            font-size: 14px;
+            font-weight: 200;
+        }
+
+        .pricingblock {
+            border-top:1px solid #fff;
+            padding:1em 0;
+            background-color:#f0f0f0;
+        }
+
+
+        #menu {
+            position:fixed;
+            top:55px;
+            right:15px;
+            width:100%;
+            max-width:85px;
+            color: #FFFFFF;
+            z-index:9999;
+            display: none;
+        }
+
+        #menumobile {
+            position:fixed;
+            top:52px;
+            right:16px;
+            width:100%;
+            max-width:40px;
+            color: #FFFFFF;
+            z-index:9999;
+            display: none;
+        }
+
+        .floatmenuitem {
+            background-color:#fff;
+            margin:1em 0;
+            border-radius:5px;
+            border-top:1px solid #fff;
+            padding:1em;
+            font-size:10px;
+            font-weight:500;
+            text-align:center;
+        }
+
+        .floatmenuitemmobile {
+            padding:.5em;
+            font-size:10px;
+            font-weight:500;
+            text-align:center;
+        }
+
+        .floatmenuitem:hover {
+            background-color:#f0f0f0;
+            text-align:center;
+            padding:1em;
+        }
+
+        .floatmenuitem a {
+            color:#333;
+            text-decoration:none;
+        }
+
+        .row {max-width:1600px;margin:0 auto;}
+
+
+        video {
+            position: absolute;
+            /* Vertical and Horizontal center*/
+            left: 50%; top: 50%;
+            transform: translate(-50%, -50%);
+            min-height:100%;
+            z-index:0;
+        }
+
+
+        .elq-form .field-p {
+            margin-bottom: 1em;
+        }
+
+        .elq-form .label-position.top {
+            color: #333;
+            font-family: 'Roboto', sans-serif;
+            font-weight:300;
+        }
+
+        .elq-form input {
+            padding: 1em;
+            color:#333;
+        }
+
+        .elq-form .radio-option .inner {
+            vertical-align: middle;
+            color: #333;
+            font-weight: 300;
+            font-size: 14px;
+        }
+
+        @media screen and (min-width:768px) {
+            .nav-tabs>li {width:33.2%}}
+        @media screen and (max-width:768px) {
+            .nav-tabs>li {width:100%}}
+
+
+
+
+        .nav-tabs>li>a {background-color: #fff;color: #000;border:1px solid #ddd;}
+        .tab-content {background-color: #fff;padding:2em 0;}
+        div[w-theme="listview"] .events-root-container {border:none !important;}
+        .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {color: #FFF;background-color: #000;border: 1px solid #000;border-bottom-color: #000;}
+        @media screen and (min-width:450px) {.parkinglist {margin:0 auto;}}
+        .nav-tabs>li>a:focus {background-color:#000;color:#fff;}
+
+        .icon-list {max-width:450px;margin:0 auto;}
+
+
+    </style>
+
+
+</head>
+<body>
+<!--Preloader-->
+<div id="preloader">
+    <div id="status">&nbsp;</div>
+</div>
+
+<nav class="top-nav navbar-fixed-top" style=" background-color: #e7e7e7">
+    <a class="navbar-brand " href="#">
+        <img src="http://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/PremiumSeatingHeader.png"
+             style="padding: 0 !important;" id="menu-image"></a>
+
+
+    <div class="navbar-collapse collapse">
+        <div id="dropdown-main" class="dropdown" style="padding-top:0 !important; margin-top: 0 !important;">
+            <button class="dropbtn suite-btn">VIEW SUITES</button>
+            <div class="dropdown-content">
+                <li><a href="#dahill">Dahill Suites</a></li>
+                <li><a href="#courtside">Courtside Suites</a></li>
+                <li><a href="#terrace">Terrace Suites</a></li>
+                <li><a href="#theater">Theater Boxes</a></li>
+                <li><a href="#terrace-ledge">Terrace Ledge Boxes</a></li>
+                <li><a href="#single">Single Game Suites</a></li>
+            </div>
+        </div><!--/.nav-collapse -->
+
+        <div id="dropdown-mobile" class="dropdown" style="padding-top:0 !important; margin-top: 0 !important;">
+            <li style="display:inline"><img src="http://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/PremiumSeatingLogo.png" width="90%" id="mobile-icon"></li>
+            <button class="dropbtn" style="padding-top:3px !important; padding-left:30px;">
+                VIEW SUITES<span class="glyphicon glyphicon-align-justify" style="padding-left:10px;"></span>
+            </button>
+
+            <div class="dropdown-content">
+                <li><a href="#dahill">Dahill Suites</a></li>
+                <li><a href="#courtside">Courtside Suites</a></li>
+                <li><a href="#terrace">Terrace Suites</a></li>
+                <li><a href="#theater">Theater Boxes</a></li>
+                <li><a href="#terrace-ledge">Terrace Ledge Boxes</a></li>
+                <li><a href="#single">Single Game Suites</a></li>
+            </div>
+        </div>
+
+        <div class="dropdown additional-links">
+            <li class="list-links"><a href="https://www.nba.com/spurs/2018-spurs-groups" target="_blank">VIEW GROUP
+                TICKETS</a></li>
+        </div>
+        <div class="dropdown additional-links">
+            <li class="list-links"><a href="https://www.nba.com/spurs/2018-19-season-tickets" target="_blank">SEASON
+                TICKETS</a></li>
+        </div>
+        <div class="dropdown additional-links">
+            <li class="list-links"><a href="https://www.nba.com/spurs" target="_blank">BACK TO SPURS.COM</a></li>
+        </div>
+
+
+
+    </div>
+
+    <ul class="nav navbar-nav navbar-right" style="text-align:center">
+
+
+        <li class="purchasenav "><a href="#contact-form" style="font-weight:900; color:#fff;">BOOK TODAY</a></li>
+    </ul>
+</nav>
+
+<div class="row fixed-background"
+     style="background-image: url(https://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/spurs/Schad/img/Spurs/Premium/TheaterBox3.jpg);"
+     width="100%">
+    <div class="row">
+        <div class="fixed-buttons">
+            <img src="http://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/PremiumSeatingLogo.png" style="padding-top:90px;">
+
+        </div>
+        <div class="blackout-buttons" style="padding: 50px; font-family: 'Lato', sans-serif;">
+            <div class="row" style="text-align: center;">
+                <div class="col-md-4 col-xs-12">
+                    <div class="blackout-btn">
+                        <a href="#dahill" class="button-text">Dahill</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <div class="blackout-btn">
+                        <a href="#courtside" class="button-text">Courtside Suites</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <div class="blackout-btn">
+                        <a href="#terrace" class="button-text">Terrace Suites</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="text-align: center;">
+                <div class="col-md-4 col-xs-12">
+                    <div class="blackout-btn">
+                        <a href="#theater" class="button-text">Theater Boxes</a>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12">
+                    <div class="blackout-btn">
+                        <a href="#terrace-ledge" class="button-text">Terrace Ledge Boxes</a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <div class="blackout-btn">
+                        <a href="#single" class="button-text">Single Game Suites</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<!--/////////////////////////////Dahill Tab starts/////////////////////////////////////////-->
+<a name="dahill"></a>
+
+<div class="row dahill-row" style="margin-top:100px; background-color: #dddddd;">
+    <div class="col-md-6 col-xs-12 dahill-text">
+        <h2 class="suite-titles" >Dahill
+            Courtside Club</h2>
+        <h5 class="info-title" style="">Simply put; the best seats in the house. Access the private Dahill Courtside
+            Club via<strong> your own private dedicated walkway.</strong> This club is located on the event level
+            with a VIP entrance behind the visiting team bench.</h5>
+
+        <ul class="icon-list">
+            <li class="list-icons"><img
+                    src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/u91.png"
+                    width="30" height="30" style="display: inline; color:#000;">Three Course Chef's Table Dinner
+            </li>
+            <li class="list-icons"><img
+                    src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/u92.png"
+                    width="30" height="30">
+                Beer, Wine, Soft Drinks
+                & Bottled Water
+            </li>
+
+            <li class="list-icons"
+                style="color:#222; list-style-type:none!important; float:left;"><img
+                    src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/u95.png"
+                    width="30" height="30">
+                Dedicated Premium Account Executive
+            </li>
+
+            <li class="list-icons"><img
+                    src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/u97.png"
+                    width="30" height="30">
+                Exclusive AT&T Center
+                Presale Tickets
+            </li>
+            <li class="list-icons">
+                <!-- VIDEO BUTTON -->
+                <button type="button" class="btn btn-default btnspacing" data-toggle="modal"
+                        data-target="#myModal2"><span class="glyphicon glyphicon-facetime-video"
+                                                      aria-hidden="true"></span> <strong> Watch Video</strong>
+                </button><!-- START VIDEO MODAL -->
+                <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                        aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Dahill Courtside Club</h4></div>
+                            <div class="modal-body" style="padding:0 !important;"><!-- START VIDEOS -->
+                                <div style="background:linear-gradient(#111,#333);background:-webkit-linear-gradient(#111,#333);background:-moz-linear-gradient(#111,#333);background:-o-linear-gradient(#111,#333);color:#eaeaea;">
+                                    <div class="">
+                                        <div class="col-xs-12">
+                                            <div id="video">
+                                                <div class="row">
+                                                    <div class="col-xs-12">
+                                                        <div id="videobig">
+
+                                                            <script class="_nbaVideoPlayerScout" data-team="spurs"
+                                                                    data-videoId="/video/teams/spurs/2016/03/24/1458833488232-Dahill-Courtside_final.mp4-388402"
+                                                                    data-width="768" data-height="732"
+                                                                    src="https://www.nba.com/scout/team/cvp/videoPlayerScout.js"></script>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- END VIDEOS --> </div><!-- END MODAL BODY -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- END VIDEO MODAL -->
+            </li>
+        </ul>
+    </div>
+
+    <div class="col-md-6 col-xs-12" style="padding:0 !important;">
+        <img src="http://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/DAHILL.jpg" width="100%">
+    </div>
+
+</div>
+
+<div class="row" style="background-color: #fff;">
+    <div class="col-xs-12">
+        <div class="small-accordion col-xs-12 col-md-10 col-md-offset-1" id="accordion1">
+            <div class="accordion-div" >
+                <h4 style="color:#222; text-align: center">ADDITIONAL INFORMATION</h4>
+
+                <div class="card">
+                    <div class="card-header btn btn-link collapsed" data-toggle="collapse"
+                         data-target="#includedEvents" aria-expanded="false"
+                         aria-controls="includedEvents">
+                        <img src="http://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add%20(1).png"
+                             width="35" height="31" class="accordion-img">
+                        <h4 class="accordion-title">
+                            INCLUDED EVENTS
+
+                        </h4>
+
+                        <img src="http://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add%20(1).png"
+                             width="35" height="31" class="accordion-img-end" style="float: right">
+                    </div>
+
+                    <div id="includedEvents" class="collapse" data-parent="#accordion1">
+                        <div class="card-body">
+                            <ul>
+                                <li>
+                                    Spurs preseason & regular season games
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-header btn btn-link collapsed" data-toggle="collapse"
+                         data-target="#amenities" aria-expanded="false" aria-controls="amenities">
+                        <img src="http://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add%20(1).png"
+                             width="35" height="31" class="accordion-img">
+                        <h4 class="accordion-title">
+                            AMENITIES
+                        </h4>
+
+                        <img src="http://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add%20(1).png"
+                             width="35" height="31" class="accordion-img-end">
+                    </div>
+
+                    <div id="amenities" class="collapse" data-parent="#accordion1">
+                        <div class="card-body">
+                            <ul>
+                                <li>-Private all-inclusive club including a three course chef's table
+                                    dinner, beer, house wine, soft drinks and bottled water for all
+                                    Spurs home games
+                                </li>
+                                <li>-Get up close and personal with access to unique, glass tunnel and
+                                    opportunity to watch players warm-up.
+                                </li>
+                                <li>-Receive exclusive invitations to private events
+                                </li>
+                                <li>-Opportunity to purchase AT&T Center concert (lower-level) tickets
+                                    on a presale basis
+                                </li>
+                                <li>-Continuous access throughout the game to the private, all-inclusive
+                                    Dahill Courtside Club
+                                </li>
+                                <li>-Enjoy the club two hours before tip-off and one hour after game
+                                    end
+                                </li>
+                                <li>-Receive elevated, personalized service through your own Premium
+                                    Account Executive
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header btn btn-link collapsed" data-toggle="collapse"
+                         data-target="#access" aria-expanded="false" aria-controls="access">
+                        <img src="http://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add%20(1).png"
+                             width="35" height="31" class="accordion-img">
+                        <h4 class="accordion-title">
+                            ACCESS
+                        </h4>
+                        <img src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add.png"
+                             width="35" height="31" class="accordion-img-end">
+
+                    </div>
+                    <div id="access" class="collapse" data-parent="#accordion1">
+                        <div class="card-body">
+                            <ul>
+                                <li>-Dahill Courtside Club - Private all-inclusive club</li>
+                                <li>-VIP Entrances - Private entrances exclusively for Premium Season
+                                    Ticket Members.
+                                </li>
+                                <li>-Dahill & Frost Saddles & Spurs Club - Exclusive level of AT&T
+                                    Center featuring premium concessions & bars.
+                                </li>
+                                <li>-SWBC Terrace Restaurant - Exclusive restaurant for Season Ticket
+                                    Members located in the West End Zone on the Terrace Level.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</div>
+
+    </div>
+
+
+
+
+
+
+<!--/////////////////////////////Courtside Box//////////////////////////////////////////////////-->
+<a name="courtside"></a>
+
+<div class="row courtside-row" style="margin-top:100px; background-color: #dddddd">
+
+        <div class="col-md-6 col-xs-12 courtside" style="background-color: #dddddd; padding:0!important">
+            <img src="http://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/032118-Spurs-Wizards-AdrianRGarcia_DSC0036-s2.jpg" width="100%">
+        </div>
+        <div class="col-md-6  col-xs-12" style="background-color: #dddddd; padding:20px;">
+            <h2 class="suite-titles">Courtside
+                Boxes</h2>
+            <h5 class="info-title" style="">High life meets lower level in best upscale
+                seats you can secure. Witness every
+                event from a spacious section all your
+                own and retreat to one of two exclusive
+                clubs complete with dinner and drinks.
+                Merging the service of a suite with the
+                sightlines of a seat, it's the perfect pairing
+                of privacy and part of the action.</h5>
+
+            <ul class="icon-list" style="font-family: 'Lato', sans-serif;">
+                <li class="list-icons"><img
+                        src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/u91.png"
+                        width="30" height="30" style="display: inline; color:#000;">Three Course Chef's Table Dinner
+                </li>
+
+                <li class="list-icons"><img
+                        src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/u92.png"
+                        width="30" height="30">
+                    Beer, Wine, Soft Drinks
+                    & Bottled Water
+                </li>
+
+                <li class="list-icons"
+                    style="color:#222; list-style-type:none!important; float:left;"><img
+                        src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/u95.png"
+                        width="30" height="30">
+                    Dedicated Premium Account Executive
+                </li>
+
+                <li class="list-icons"><img
+                        src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/u97.png"
+                        width="30" height="30">
+                    Exclusive AT&T Center
+                    Presale Tickets
+                </li>
+                <li class="list-icons">
+
+                    <!-- VIDEO BUTTON --><button type="button" class="btn btn-default btnspacing" data-toggle="modal" style="width:100%;"data-target="#myModal22"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> <strong> Watch Video</strong></button><!-- START VIDEO MODAL --><div class="modal fade" id="myModal22" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true"> <div class="modal-dialog"> <div class="modal-content"> <div class="modal-header"> <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> <h4 class="modal-title" id="myModalLabel2">Courtside Boxes</h4> </div> <div class="modal-body" style="padding:0 !important;"><!-- START VIDEOS --><div style="background:linear-gradient(#111,#333);background:-webkit-linear-gradient(#111,#333);background:-moz-linear-gradient(#111,#333);background:-o-linear-gradient(#111,#333);color:#eaeaea;"> <div class=""> <div class="col-xs-12"> <div id="video2"> <div class="row"><div class="col-xs-12"><div id="videobig2">
+
+                    <script class="_nbaVideoPlayerScout" data-team="spurs" data-videoId="/video/teams/spurs/2016/03/24/1458834051380-Courtside-Boxes.mp4-388421" data-width="768" data-height="732" src="https://i.cdn.turner.com/nba/nba/scout/team/cvp/videoPlayerScout.js"></script>
+
+                </div></div></div> </div> </div> </div></div><!-- END VIDEOS --> </div><!-- END MODAL BODY --> <div class="modal-footer"> <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> </div> </div> </div></div><!-- END VIDEO MODAL -->
+
+                </li>
+
+            </ul>
+
+        </div>
+
+
+</div>
+    <div>
+    </div>
+
+        <div class="row white-div">
+            <div class="row" style="background-color: #fff;">
+                <div class="col-md-12">
+                    <div class="small-accordion col-xs-12 col-md-10 col-md-offset-1" id="accordion2">
+
+                        <div class="accordion-div" style="">
+                            <h4 style="color:#222; text-align: center">ADDITIONAL INFORMATION</h4>
+
+                            <div class="card">
+
+                                <div class="card-header btn btn-link collapsed" data-toggle="collapse"
+                                     data-target="#includedEvents2" aria-expanded="false"
+                                     aria-controls="includedEvents2">
+                                    <img src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add.png"
+                                         width="35" height="31" class="accordion-img">
+                                    <h4 class="accordion-title">
+                                        INCLUDED EVENTS
+
+                                    </h4>
+
+                                    <img src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add.png"
+                                         width="35" height="31" class="accordion-img-end" style="float: right">
+                                </div>
+
+                                <div id="includedEvents2" class="collapse" data-parent="#accordion2">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li>
+                                                Spurs preseason & regular season games
+                                            </li>
+                                            <li>San Antonio Stock Show & Rodeo</li>
+
+                                            <li>Stars & Rampage games</li>
+
+                                            <li>AT&T Center concerts/family shows
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="card">
+                                <div class="card-header btn btn-link collapsed" data-toggle="collapse"
+                                     data-target="#amenities2" aria-expanded="false" aria-controls="amenities2">
+                                    <img src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add.png"
+                                         width="35" height="31" class="accordion-img">
+                                    <h4 class="accordion-title">
+                                        AMENITIES
+                                    </h4>
+
+                                    <img src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add.png"
+                                         width="35" height="31" class="accordion-img-end">
+                                </div>
+
+                                <div id="amenities2" class="collapse" data-parent="#accordion2">
+                                    <div class="card-body">
+
+                                        <ul>
+                                            <li>Twelve (12) box tickets for every event in the AT&T Center
+                                            <li>Spurs preseason and regular season games, all franchise games, all rodeo
+                                                events, and all AT&T Center concerts and family shows
+                                            </li>
+
+                                            <li>Four (4) designated VIP parking passes
+                                            </li>
+                                            <li>Private, all-inclusive club for Courtside Box owners only, that
+                                                includes:
+                                            </li>
+                                            <li style="padding-left:7px;">-Four course chef's table dinner, beer, house wine, soft drinks and
+                                                bottled water for all Spurs home games
+                                            </li>
+                                            <li style="padding-left:7px;">-Three course chef's table dinner, soft drinks and bottled water for
+                                                Rodeo
+                                            </li>
+                                            <li style="padding-left:7px;">-Light snacks, soft drinks and bottled water for franchise team games,
+                                                concerts and family shows
+                                            </li>
+
+                                            <li style="padding-left:7px;">-Dedicated Premium Account Executive
+                                            </li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header btn btn-link collapsed" data-toggle="collapse"
+                                     data-target="#access2" aria-expanded="false" aria-controls="access2">
+                                    <img src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add.png"
+                                         width="35" height="31" class="accordion-img">
+                                    <h4 class="accordion-title">
+                                        ACCESS
+                                    </h4>
+                                    <img src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add.png"
+                                         width="35" height="31" class="accordion-img-end">
+
+                                </div>
+                                <div id="access2" class="collapse" data-parent="#accordion2">
+                                    <div class="card-body">
+                                        <ul>
+                                            <li>Charter Suite Clubs - Private all-inclusive clubs exclusively for
+                                                Courtside Box owners.
+                                            </li>
+                                            <li>VIP Entrances - Private entrances exclusively for Premium Season Ticket
+                                                Members.
+                                            </li>
+                                            <li>Frost & Dahill Saddles & Spurs Club - Exclusive level of AT&T Center
+                                                featuring premium concessions & bars.
+                                            </li>
+                                            <li>SWBC Terrace Restaurant - Exclusive restaurant for Season Ticket Members
+                                                located in the West End Zone on the SWBC Terrace Level.
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+<!--///////////////////////////////TERRACE SUITES PANE START//////////////////////////////////-->
+<!--<div  class="">-->
+<a name="terrace"></a>
+<div class="row dahill-row" style="margin-top: 100px">
+<div class="col-md-6 col-xs-12 dahill-text">
+    <h2 class="suite-titles">Terrace Suites</h2>
+    <h5 class="info-title">Take your team from seat to suite with our
+        most luxurious experience on the market.
+        Explore our premium lounge level and
+        private restaurant or bring the menu to
+        you with personalized in-suite catering.
+        With over 500 square feet to chat and
+        cheer, it's not just a room, it's a night
+        your guests will never want to end.</h5>
+
+    <ul class="icon-list" style="font-family: 'Lato', sans-serif;">
+        <li class="list-icons">
+            <img src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/u91.png" width="30" height="30" style="display: inline; color:#000;">Sixteen tickets to all included events
+        </li>
+
+        <li class="list-icons"><img
+                src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/u92.png"
+                width="30" height="30">
+            Four VIP parking passes
+        </li>
+
+        <li class="list-icons"
+            style="color:#222; list-style-type:none!important; float:left;"><img
+                src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/u95.png"
+                width="30" height="30">
+            Custom-branded suite wall featuring your company logo
+        </li>
+
+        <li class="list-icons"><img
+                src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/u97.png"
+                width="30" height="30">
+            Suite catering and attendant services available throughout event
+        </li>
+
+        <li class="list-icons">
+
+            <!-- VIDEO BUTTON --><button type="button" class="btn btn-default btnspacing" data-toggle="modal" style="width:100%;"data-target="#myModal23"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> <strong> Watch Video</strong></button><!-- START VIDEO MODAL --><div class="modal fade" id="myModal23" tabindex="-1" role="dialog" aria-labelledby="myModalLabel23" aria-hidden="true"> <div class="modal-dialog"> <div class="modal-content"> <div class="modal-header"> <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> <h4 class="modal-title" id="myModalLabel23">Terrace Suites</h4> </div> <div class="modal-body" style="padding:0 !important;"><!-- START VIDEOS --><div style="background:linear-gradient(#111,#333);background:-webkit-linear-gradient(#111,#333);background:-moz-linear-gradient(#111,#333);background:-o-linear-gradient(#111,#333);color:#eaeaea;"> <div class=""> <div class="col-xs-12"> <div id="video23"> <div class="row"><div class="col-xs-12"><div id="videobig23">
+
+            <script class="_nbaVideoPlayerScout" data-team="spurs" data-videoId="/video/teams/spurs/2016/03/24/1458832550222-Terrace-Suites.mp4-388364" data-width="768" data-height="732" src="https://i.cdn.turner.com/nba/nba/scout/team/cvp/videoPlayerScout.js"></script>
+
+        </div></div></div> </div> </div> </div></div><!-- END VIDEOS --> </div><!-- END MODAL BODY --> <div class="modal-footer"> <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> </div> </div> </div></div><!-- END VIDEO MODAL -->
+
+        </li>
+    </ul>
+
+</div>
+
+    <div class="col-md-6 col-xs-12" style="padding:0 !important;">
+        <img src="http://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/Terrace%20Ledge%20B.jpg" width="100%">
+    </div>
+
+</div>
+
+<div class="row" style="background-color: #fff;">
+    <div class="col-xs-12">
+        <div class="small-accordion col-xs-12 col-md-10 col-md-offset-1" id="accordion13">
+            <div class="accordion-div" style="">
+                <h4 style="color:#222; text-align: center">ADDITIONAL INFORMATION</h4>
+
+                <div class="card">
+                    <div class="card-header btn btn-link collapsed" data-toggle="collapse"
+                         data-target="#includedEvents3" aria-expanded="false"
+                         aria-controls="includedEvents3">
+                        <img src="http://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add%20(1).png"
+                             width="35" height="31" class="accordion-img">
+                        <h4 class="accordion-title">
+                            INCLUDED EVENTS
+
+                        </h4>
+
+                        <img src="http://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add%20(1).png"
+                             width="35" height="31" class="accordion-img-end" style="float: right">
+                    </div>
+
+                    <div id="includedEvents3" class="collapse" data-parent="#accordion13">
+                        <div class="card-body">
+                            <ul>
+                                <li>
+                                    Spurs preseason & regular season games
+                                    <br>
+                                    San Antonio Stock Show & Rodeo
+                                    <br>
+                                    San Antonio Rampage games
+                                    <br>
+                                    Concerts & family shows
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-header btn btn-link collapsed" data-toggle="collapse"
+                         data-target="#amenities3" aria-expanded="false" aria-controls="amenities3">
+                        <img src="http://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add%20(1).png"
+                             width="35" height="31" class="accordion-img">
+                        <h4 class="accordion-title">
+                            AMENITIES
+                        </h4>
+
+                        <img src="http://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add%20(1).png"
+                             width="35" height="31" class="accordion-img-end">
+                    </div>
+
+                    <div id="amenities3" class="collapse" data-parent="#accordion13">
+                        <div class="card-body">
+                            <ul>
+                                <li>Sixteen tickets to all included events
+                                    <br>
+                                    Four VIP parking passes
+                                    <br>
+                                    Custom-branded suite wall featuring your company's logo
+                                    <br>
+                                    Opportunity to purchase up to eight standing room only tickets per event
+                                    <br>
+                                    Suite catering and attendant services available throughout event
+                                    <br>
+                                    Exclusive invitations to private VIP functions
+                                    <br>
+                                    Opportunity to purchase lower-level concert tickets before the public
+                                    <br>
+                                    Five-star service through your personal Premium Account Executive
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header btn btn-link collapsed" data-toggle="collapse"
+                         data-target="#access3" aria-expanded="false" aria-controls="access3">
+                        <img src="http://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add%20(1).png"
+                             width="35" height="31" class="accordion-img">
+                        <h4 class="accordion-title">
+                            ACCESS
+                        </h4>
+                        <img src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add.png"
+                             width="35" height="31" class="accordion-img-end">
+
+                    </div>
+                    <div id="access3" class="collapse" data-parent="#accordion13">
+                        <div class="card-body">
+                            <ul>
+                                <li>VIP Entrances: Three exclusive entryways open two hours before tipoff
+                                    Frost and Dahill Saddles & Spurs Clubs: Limited level featuring premium concessions and bars
+                                    SWBC Terrace Club Restaurant: Private dining area overlooking event floor
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>
+
+
+<!--/////////////////////////////Start Theater Box Tab//////////////////////////////////////-->
+
+<a name="theater"></a>
+
+<div class="row courtside-row" style="margin-top:100px; background-color: #dddddd">
+
+    <div class="col-md-6 col-xs-12 courtside" style="background-color: #dddddd; padding:0!important">
+        <img src="http://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/Theater%20Box%20Seating%20View%20(1).jpg" width="100%">
+    </div>
+    <div class="col-md-6  col-xs-12" style="background-color: #dddddd; padding:20px;">
+        <h2 class="suite-titles">Theater Boxes
+        </h2>
+        <h5 class="info-title" style="">Same venue, new vantage. Sit back and enjoy the show with recently-renovated, table-style seating just steps away from a fully-furnished, all-inclusive dining and bar area made just for you. From five-star fare to fill your plate to added premium area access, it's everything you'll want and nothing you'll expect.</h5>
+
+        <ul class="icon-list" style="font-family: 'Lato', sans-serif;">
+            <li class="list-icons"><img
+                    src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/u91.png"
+                    width="30" height="30" style="display: inline; color:#000;">Four tickets to all included events
+            </li>
+
+            <li class="list-icons"><img
+                    src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/u92.png"
+                    width="30" height="30">
+                Two VIP parking passes
+            </li>
+
+            <li class="list-icons"
+                style="color:#222; list-style-type:none!important; float:left;"><img
+                    src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/u95.png"
+                    width="30" height="30">
+                Five-star service through your personal Premium Account Executive
+            </li>
+
+            <li class="list-icons"><img
+                    src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/u97.png"
+                    width="30" height="30">
+                Opportunity to purchase lower-level concert tickets before the public
+            </li>
+            <li class="list-icons">
+
+                <!-- VIDEO BUTTON --><button type="button" class="btn btn-default btnspacing" data-toggle="modal" style="width:100%;"data-target="#myModal1b"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> <strong> Watch Video</strong></button><!-- START VIDEO MODAL --><div class="modal fade" id="myModal1b" tabindex="-1" role="dialog" aria-labelledby="myModalLabelb" aria-hidden="true"> <div class="modal-dialog"> <div class="modal-content"> <div class="modal-header"> <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> <h4 class="modal-title" id="myModalLabelb">Theater Box</h4> </div> <div class="modal-body" style="padding:0 !important;"><!-- START VIDEOS --><div style="background:linear-gradient(#111,#333);background:-webkit-linear-gradient(#111,#333);background:-moz-linear-gradient(#111,#333);background:-o-linear-gradient(#111,#333);color:#eaeaea;"> <div class=""> <div class="col-xs-12"> <div id="video"> <div class="row"><div class="col-xs-12"><div id="videobig">
+
+                <script class="_nbaVideoPlayerScout" data-team="spurs" data-videoId="/video/teams/spurs/2016/03/24/1458833142771-Terrace---Theater-Box.mp4-388380" data-width="768" data-height="732" src="https://i.cdn.turner.com/nba/nba/scout/team/cvp/videoPlayerScout.js"></script>
+
+            </div></div></div> </div> </div> </div></div><!-- END VIDEOS --> </div><!-- END MODAL BODY --> <div class="modal-footer"> <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> </div> </div> </div></div><!-- END VIDEO MODAL -->
+
+            </li>
+
+        </ul>
+
+    </div>
+
+
+</div>
+<div>
+</div>
+
+<div class="row white-div">
+    <div class="row" style="background-color: #fff;">
+        <div class="col-md-12">
+            <div class="small-accordion col-xs-12 col-md-10 col-md-offset-1" id="accordion22">
+
+                <div class="accordion-div" style="">
+                    <h4 style="color:#222; text-align: center">ADDITIONAL INFORMATION</h4>
+
+                    <div class="card">
+
+                        <div class="card-header btn btn-link collapsed" data-toggle="collapse"
+                             data-target="#includedEvents22" aria-expanded="false"
+                             aria-controls="includedEvents22">
+                            <img src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add.png"
+                                 width="35" height="31" class="accordion-img">
+                            <h4 class="accordion-title">
+                                INCLUDED EVENTS
+
+                            </h4>
+
+                            <img src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add.png"
+                                 width="35" height="31" class="accordion-img-end" style="float: right">
+                        </div>
+
+                        <div id="includedEvents22" class="collapse" data-parent="#accordion22">
+                            <div class="card-body">
+                                <ul><li>
+                                    -Spurs preseason & regular season games
+                                    <br>
+                                    -San Antonio Stock Show & Rodeo
+                                    <br>
+                                    -San Antonio Rampage games
+                                    <br>
+                                    -Concerts & family shows
+                                </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <div class="card-header btn btn-link collapsed" data-toggle="collapse"
+                             data-target="#amenities22" aria-expanded="false" aria-controls="amenities22">
+                            <img src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add.png"
+                                 width="35" height="31" class="accordion-img">
+                            <h4 class="accordion-title">
+                                AMENITIES
+                            </h4>
+
+                            <img src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add.png"
+                                 width="35" height="31" class="accordion-img-end">
+                        </div>
+
+                        <div id="amenities22" class="collapse" data-parent="#accordion22">
+                            <div class="card-body">
+
+                                <ul><li>
+                                    - Four tickets to all included events
+                                    <br>
+                                    - Two VIP parking passes
+                                    <br>
+                                    - Exclusive invitations to private VIP functions
+                                    <br>
+                                    - Opportunity to purchase lower-level concert tickets before the public
+                                    <br>
+                                    - Five-star service through your personal Premium Account Executive
+                                </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header btn btn-link collapsed" data-toggle="collapse"
+                             data-target="#access22" aria-expanded="false" aria-controls="access22">
+                            <img src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add.png"
+                                 width="35" height="31" class="accordion-img">
+                            <h4 class="accordion-title">
+                                ACCESS
+                            </h4>
+                            <img src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add.png"
+                                 width="35" height="31" class="accordion-img-end">
+
+                        </div>
+                        <div id="access22" class="collapse" data-parent="#accordion22">
+                            <div class="card-body">
+                                <ul>
+                                    <li>Private dining area and bar including:
+                                        <br>
+                                        - Full Season Plan: $64,900-$77,000 per seat
+                                        <br>
+                                        - Our-course chef's table dinner with beer, wine, soft drinks, and bottled water for Spurs games
+                                        <br>
+                                        - Three-course chef's table dinner with soft drinks and bottled water for Rodeo events
+                                        <br>
+                                        - Light snacks, soft drinks, and bottled water for all other events
+                                        <br>
+                                        - Three-course chef's table dinner with beer, wine, soft drinks, and bottled water for Spurs games
+                                        <br>
+                                        - Three-course chef's table dinner with soft drinks and bottled water for Rodeo events
+                                        <br>
+                                        - Heavy appetizers, beer, wine, soft drinks, and bottled water for all other events
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--//////////////////////////////////End Theater box tab///////////////////////////////////////////-->
+
+
+
+<!--//////////////////////////////////Start Terrace Ledge Box Tab////////////////////////////////////-->
+
+<a name="terrace-ledge"></a>
+
+<div class="row dahill-row" style="margin-top:100px; background-color: #dddddd;">
+    <div class="col-md-6 col-xs-12 dahill-text">
+        <h2 class="suite-titles" >Terrace Ledge Boxes</h2>
+        <h5 class="info-title" style="">In these parts, fine dining and fun are never mutually exclusive. Pull up a seat in our secluded, table-style sections featuring full-course, chef-prepared cuisine from the adjacent SWBC Terrace Club Restaurant. If your idea of high-end entertainment comes with a menu, look no further for your reservation.</h5>
+
+        <ul class="icon-list">
+            <li class="list-icons"><img
+                    src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/u91.png"
+                    width="30" height="30" style="display: inline; color:#000;">Four tickets to all included events
+            </li>
+            <li class="list-icons"><img
+                    src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/u92.png"
+                    width="30" height="30">
+                Two VIP parking passes
+            </li>
+
+            <li class="list-icons"
+                style="color:#222; list-style-type:none!important; float:left;"><img
+                    src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/u95.png"
+                    width="30" height="30">
+                Full-course, chef-prepared cuisine
+            </li>
+
+            <li class="list-icons"><img
+                    src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/u97.png"
+                    width="30" height="30">
+                Opportunity to purchase lower-level concert tickets before the public
+            </li>
+            <li class="list-icons">
+                <!-- VIDEO BUTTON -->
+                <button type="button" class="btn btn-default btnspacing" data-toggle="modal" data-target="#myModal2c" style="width:100%;"><span class="glyphicon glyphicon-facetime-video"
+                                                                                                                                               aria-hidden="true"></span> <strong> Watch Video</strong>
+                </button><!-- START VIDEO MODAL -->
+                <div class="modal fade" id="myModal2c" tabindex="-1" role="dialog" aria-labelledby="myModalLabelc"
+                     aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                        aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabelc">Terrace Ledge Boxes</h4></div>
+                            <div class="modal-body" style="padding:0 !important;"><!-- START VIDEOS -->
+                                <div style="background:linear-gradient(#111,#333);background:-webkit-linear-gradient(#111,#333);background:-moz-linear-gradient(#111,#333);background:-o-linear-gradient(#111,#333);color:#eaeaea;">
+                                    <div class="">
+                                        <div class="col-xs-12">
+                                            <div id="videoc">
+                                                <div class="row">
+                                                    <div class="col-xs-12">
+                                                        <div id="videobigc">
+
+                                                            <script class="_nbaVideoPlayerScout" data-team="spurs"
+                                                                    data-videoId="/video/teams/spurs/2016/03/24/1458833142771-Terrace-&#45;&#45;Theater-Box.mp4-388380"
+                                                                    data-width="768" data-height="732"
+                                                                    src="https://www.nba.com/scout/team/cvp/videoPlayerScout.js"></script>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- END VIDEOS --> </div><!-- END MODAL BODY -->
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- END VIDEO MODAL -->
+            </li>
+        </ul>
+    </div>
+
+    <div class="col-md-6 col-xs-12" style="padding:0 !important;">
+        <img src="http://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/Terrace%20Ledge%20C.jpg" width="100%">
+    </div>
+
+</div>
+
+<div class="row" style="background-color: #fff;">
+    <div class="col-xs-12">
+        <div class="small-accordion col-xs-12 col-md-10 col-md-offset-1" id="accordion188">
+            <div class="accordion-div" >
+                <h4 style="color:#222; text-align: center">ADDITIONAL INFORMATION</h4>
+
+                <div class="card">
+                    <div class="card-header btn btn-link collapsed" data-toggle="collapse"
+                         data-target="#includedEvents88" aria-expanded="false"
+                         aria-controls="includedEvents88">
+                        <img src="http://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add%20(1).png"
+                             width="35" height="31" class="accordion-img">
+                        <h4 class="accordion-title">
+                            INCLUDED EVENTS
+
+                        </h4>
+
+                        <img src="http://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add%20(1).png"
+                             width="35" height="31" class="accordion-img-end" style="float: right">
+                    </div>
+
+                    <div id="includedEvents88" class="collapse" data-parent="#accordion188">
+                        <div class="card-body">
+                            <ul>
+                                <li>
+                                    - Spurs preseason & regular season games
+                                    <br>
+                                    - San Antonio Stock Show & Rodeo
+                                    <br>
+                                    - San Antonio Rampage games
+                                    <br>
+                                    - Concerts & family shows
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <div class="card-header btn btn-link collapsed" data-toggle="collapse"
+                         data-target="#amenities88" aria-expanded="false" aria-controls="amenities88">
+                        <img src="http://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add%20(1).png"
+                             width="35" height="31" class="accordion-img">
+                        <h4 class="accordion-title">
+                            AMENITIES
+                        </h4>
+
+                        <img src="http://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add%20(1).png"
+                             width="35" height="31" class="accordion-img-end">
+                    </div>
+
+                    <div id="amenities88" class="collapse" data-parent="#accordion188">
+                        <div class="card-body">
+                            <ul>
+                                <li>- Four tickets to all included events
+                                    <br>
+                                    - Two VIP parking passes
+                                    <br>
+                                    - Exclusive invitations to private VIP functions
+                                    <br>
+                                    - Opportunity to purchase lower-level concert tickets before the public
+                                    <br>
+                                    - Five-star service through your personal Premium Account Executive
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header btn btn-link collapsed" data-toggle="collapse"
+                         data-target="#access88" aria-expanded="false" aria-controls="access88">
+                        <img src="http://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add%20(1).png"
+                             width="35" height="31" class="accordion-img">
+                        <h4 class="accordion-title">
+                            ACCESS
+                        </h4>
+                        <img src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add.png"
+                             width="35" height="31" class="accordion-img-end">
+
+                    </div>
+                    <div id="access88" class="collapse" data-parent="#accordion188">
+                        <div class="card-body">
+                            <ul>
+                                <li>- Box access two hours before tipoff and one hour after game
+                                    <br>
+                                    - VIP Entrances: Three exclusive entryways open two hours before tipoff
+                                    <br>
+                                    - Frost and Dahill Saddles & Spurs Clubs: Limited level featuring premium concessions and bars
+                                    <br>
+                                    - Light snacks, soft drinks, and bottled water for all other events
+                                    SWBC Terrace Club Restaurant: Private dining area overlooking event floor including:
+                                    <br>
+                                    - Three-course chef's table with dinner, beer, wine, soft drinks, and bottled water for Spurs games
+                                    <br>
+                                    - Three-course chef's table dinner with soft drinks and bottled water for Rodeo events
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<!--///////////////////////End of the Terrace Ledge Box Tab//////////////////////////////////////////-->
+
+
+
+<!--////////////////////Start of Single Game Tab Pane//////////////////////////////////////////////-->
+
+<a name="single"></a>
+
+<div class="row courtside-row" style="margin-top:100px; background-color: #dddddd">
+
+    <div class="col-md-6 col-xs-12 courtside" style="background-color: #dddddd; padding:0!important">
+        <img src="http://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/TR7.jpg" width="100%">
+    </div>
+    <div class="col-md-6  col-xs-12" style="background-color: #dddddd; padding:20px;">
+        <h2 class="suite-titles">Single Game Suites</h2>
+        <h5 class="info-title" style="">Step up your night out with a one-time rental of one of our luxurious, high capacity suites. Complete with personal attendants, these fully-furnished 500 square foot rooms come stock with a $500 catering credit. It's all the comforts of our suites with none of the commitment- just what the occasion called for.</h5>
+
+        <ul class="icon-list" style="font-family: 'Lato', sans-serif;">
+            <li class="list-icons"><img
+                    src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/u91.png"
+                    width="30" height="30" style="display: inline; color:#000;">Three Course Chef's Table Dinner
+            </li>
+
+            <li class="list-icons"><img
+                    src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/u92.png"
+                    width="30" height="30">
+                Beer, Wine, Soft Drinks
+                & Bottled Water
+            </li>
+
+            <li class="list-icons"
+                style="color:#222; list-style-type:none!important; float:left;"><img
+                    src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/u95.png"
+                    width="30" height="30">
+                Dedicated Premium Account Executive
+            </li>
+
+            <li class="list-icons"><img
+                    src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/u97.png"
+                    width="30" height="30">
+                Exclusive AT&T Center
+                Presale Tickets
+            </li>
+            <li class="list-icons">
+
+                <!-- VIDEO BUTTON --><button type="button" class="btn btn-default btnspacing" data-toggle="modal" style="width:100%;"data-target="#myModal1s"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> <strong> Watch Video</strong></button><!-- START VIDEO MODAL --><div class="modal fade" id="myModal1s" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> <div class="modal-dialog"> <div class="modal-content"> <div class="modal-header"> <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> <h4 class="modal-title" id="myModalLabels">Courtside Boxes</h4> </div> <div class="modal-body" style="padding:0 !important;"><!-- START VIDEOS --><div style="background:linear-gradient(#111,#333);background:-webkit-linear-gradient(#111,#333);background:-moz-linear-gradient(#111,#333);background:-o-linear-gradient(#111,#333);color:#eaeaea;"> <div class=""> <div class="col-xs-12"> <div id="videos"> <div class="row"><div class="col-xs-12"><div id="videobigs">
+
+                <script class="_nbaVideoPlayerScout" data-team="spurs" data-videoId="/video/teams/spurs/2016/03/24/1458834051380-Courtside-Boxes.mp4-388421" data-width="768" data-height="732" src="https://i.cdn.turner.com/nba/nba/scout/team/cvp/videoPlayerScout.js"></script>
+
+            </div></div></div> </div> </div> </div></div><!-- END VIDEOS --> </div><!-- END MODAL BODY --> <div class="modal-footer"> <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> </div> </div> </div></div><!-- END VIDEO MODAL -->
+
+            </li>
+
+        </ul>
+
+    </div>
+
+
+</div>
+<div>
+</div>
+
+<div class="row white-div">
+    <div class="row" style="background-color: #fff;">
+        <div class="col-md-12">
+            <div class="small-accordion col-xs-12 col-md-10 col-md-offset-1" id="accordion27">
+
+                <div class="accordion-div" style="">
+                    <h4 style="color:#222; text-align: center">ADDITIONAL INFORMATION</h4>
+
+                    <div class="card">
+
+                        <div class="card-header btn btn-link collapsed" data-toggle="collapse"
+                             data-target="#includedEvents27" aria-expanded="false"
+                             aria-controls="includedEvents27">
+                            <img src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add.png"
+                                 width="35" height="31" class="accordion-img">
+                            <h4 class="accordion-title">
+                                INCLUDED EVENTS
+
+                            </h4>
+
+                            <img src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add.png"
+                                 width="35" height="31" class="accordion-img-end" style="float: right">
+                        </div>
+
+                        <div id="includedEvents27" class="collapse" data-parent="#accordion27">
+                            <div class="card-body">
+                                <ul>
+                                    <li>
+                                        Spurs preseason & regular season games
+                                        <br>
+                                        - San Antonio Stock Show & Rodeo
+                                        <br>
+                                        - San Antonio Rampage games
+                                        <br>
+                                        - Concerts & family shows
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <div class="card-header btn btn-link collapsed" data-toggle="collapse"
+                             data-target="#amenities27" aria-expanded="false" aria-controls="amenities27">
+                            <img src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add.png"
+                                 width="35" height="31" class="accordion-img">
+                            <h4 class="accordion-title">
+                                AMENITIES
+                            </h4>
+
+                            <img src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add.png"
+                                 width="35" height="31" class="accordion-img-end">
+                        </div>
+
+                        <div id="amenities27" class="collapse" data-parent="#accordion27">
+                            <div class="card-body">
+
+                                <ul>
+                                    <li>Four tickets to all included events
+                                        <br>
+                                        - Two VIP parking passes
+                                        <br>
+                                        - Exclusive invitations to private VIP functions
+                                        <br>
+                                        - Opportunity to purchase lower-level concert tickets before the public
+                                        <br>
+                                        - Five-star service through your personal Premium Account Executive
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header btn btn-link collapsed" data-toggle="collapse"
+                             data-target="#access27" aria-expanded="false" aria-controls="access27">
+                            <img src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add.png"
+                                 width="35" height="31" class="accordion-img">
+                            <h4 class="accordion-title">
+                                ACCESS
+                            </h4>
+                            <img src="https://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/spurs/add.png"
+                                 width="35" height="31" class="accordion-img-end">
+
+                        </div>
+                        <div id="access27" class="collapse" data-parent="#accordion27">
+                            <div class="card-body">
+                                <ul>
+                                    <li>VIP Entrances: Three exclusive entryways open two hours before tip-off
+                                        <br>
+                                        - Frost and Dahill Saddles & Spurs Clubs: Limited level featuring premium concessions and bars
+                                        <br>
+                                        - SWBC Terrace Club Restaurant: Private dining area overlooking event floor
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--////////////////////////////End of Single Game Tab Pane//////////////////////////////////////////-->
+
+
+<!--////////////////////////////////////////Start of Contact form/////////////////////////////////-->
+
+
+<div class="col-md-10 col-md-offset-2 col-xs-12">
+    <a name="contact-form"></a>
+    <link href="https://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/spurs/Schad/css/EloquaCSSmin.css" rel="stylesheet">
+    <style>
+        .elq-form .field-p {
+            margin-bottom: 1em;
+        }
+        .elq-form .label-position.top {
+            color: #fff;
+            font-family: 'Roboto', sans-serif;
+            font-weight:300;
+        }
+        .elq-form input {
+            width:100%;
+            padding: 1em;
+            color:#000;
+        }
+        .elq-form .radio-option .inner {
+            vertical-align: middle;
+            color: #fff;
+            font-weight: 300;
+            font-size: 14px;
+        }
+    </style>
+    <div style="padding-top:2em;">
+        <h1 style="padding-bottom:1em;">CONTACT US</h1>
+        <form method="post" name="PremiumContactUs" action="https://s602383747.t.eloqua.com/e/f2" onsubmit="setTimeout(function(){if(document.querySelector){var s=document.querySelector('form#form37 input[type=submit]');if(s){s.disabled=true;}}},100);return true;" id="form37" class="elq-form" >
+            <input value="PremiumContactUs" type="hidden" name="elqFormName"  />
+            <input value="602383747" type="hidden" name="elqSiteId"  />
+            <input name="elqCampaignId" type="hidden"  />
+            <div id="formElement0" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size" >
+                <div class="field-wrapper" >
+                </div>
+                <div class="individual field-wrapper" >
+                    <div class="_100 field-style" >
+                        <p class="field-p" >
+                            <label for="field0" class="label-position top " >
+                                First Name
+                                <span class="required" >
+                *
+              </span>
+                            </label>
+                            <input id="field0" name="firstName" type="text" value="" class="field-size-top-medium"  />
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="formElement1" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size" >
+                <div class="field-wrapper" >
+                </div>
+                <div class="individual field-wrapper" >
+                    <div class="_100 field-style" >
+                        <p class="field-p" >
+                            <label for="field1" class="label-position top " >
+                                Last Name
+                                <span class="required" >
+                *
+              </span>
+                            </label>
+                            <input id="field1" name="lastName" type="text" value="" class="field-size-top-medium"  />
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="formElement2" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size" >
+                <div class="field-wrapper" >
+                </div>
+                <div class="individual field-wrapper" >
+                    <div class="_100 field-style" >
+                        <p class="field-p" >
+                            <label for="field2" class="label-position top " >
+                                Phone Number
+                                <span class="required" >
+                *
+              </span>
+                            </label>
+                            <input id="field2" name="mobilePhone" type="text" value="" class="field-size-top-medium"  />
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="formElement3" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size" >
+                <div class="field-wrapper" >
+                </div>
+                <div class="individual field-wrapper" >
+                    <div class="_100 field-style" >
+                        <p class="field-p" >
+                            <label for="field3" class="label-position top " >
+                                Email Address
+                                <span class="required" >
+                *
+              </span>
+                            </label>
+                            <input id="field3" name="emailAddress" type="text" value="" class="field-size-top-medium"  />
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="formElement4" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size" >
+                <div class="field-wrapper" >
+                </div>
+                <div class="individual field-wrapper" >
+                    <div class="_100 field-style" >
+                        <p class="field-p" >
+                            <label for="field4" class="label-position top " >
+                                Comments:
+                            </label>
+                            <input id="field4" name="leadGenSTMInterest1" type="text" value="" class="field-size-top-medium"  />
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="formElement5" class="sc-view form-design-field sc-static-layout item-padding sc-regular-size" >
+                <div class="field-wrapper" >
+                </div>
+                <div class="individual field-wrapper" >
+                    <div class="_100 field-style" >
+                        <p class="field-p" >
+                            <input type="submit" value="Submit" class="btn btn-lg btn-primary" width="300" style="height:56px !important;padding:1em;color:#fff;"/>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <script src="https://img04.en25.com/i/livevalidation_standalone.compressed.js" type="text/javascript" ></script>
+        <style type="text/css" media="screen" >
+            .LV_validation_message{
+                font-weight:bold;
+                margin: 0 0 0 5px;
+            }
+            .LV_valid{
+                color:#00CC00;
+                display:none;
+            }
+            .LV_invalid{
+                color:#CC0000;
+                font-size:10px;
+            }
+            .LV_valid_field, input.LV_valid_field:hover, input.LV_valid_field:active, textarea.LV_valid_field:hover, textarea.LV_valid_field:active {
+                outline: 1px solid #00CC00;
+            }
+            .LV_invalid_field, input.LV_invalid_field:hover, input.LV_invalid_field:active, textarea.LV_invalid_field:hover, textarea.LV_invalid_field:active {
+                outline: 1px solid #CC0000;
+            }
+        </style>
+        <script type="text/javascript" >
+            var dom0 = document.querySelector('#form37 #field0');
+            var field0 = new LiveValidation(dom0, {
+                validMessage: "", onlyOnBlur: false, wait: 300}
+            );
+            field0.add(Validate.Custom, {
+                against: function(value) {
+                    return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+                }
+                , failureMessage: "Value must not contain any URL's"}
+            );
+            field0.add(Validate.Presence, {
+                failureMessage:"This field is required"}
+            );
+            var dom1 = document.querySelector('#form37 #field1');
+            var field1 = new LiveValidation(dom1, {
+                validMessage: "", onlyOnBlur: false, wait: 300}
+            );
+            field1.add(Validate.Custom, {
+                against: function(value) {
+                    return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+                }
+                , failureMessage: "Value must not contain any URL's"}
+            );
+            field1.add(Validate.Presence, {
+                failureMessage:"This field is required"}
+            );
+            var dom2 = document.querySelector('#form37 #field2');
+            var field2 = new LiveValidation(dom2, {
+                validMessage: "", onlyOnBlur: false, wait: 300}
+            );
+            field2.add(Validate.Custom, {
+                against: function(value) {
+                    return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+                }
+                , failureMessage: "Value must not contain any URL's"}
+            );
+            field2.add(Validate.Presence, {
+                failureMessage:"This field is required"}
+            );
+            var dom3 = document.querySelector('#form37 #field3');
+            var field3 = new LiveValidation(dom3, {
+                validMessage: "", onlyOnBlur: false, wait: 300}
+            );
+            field3.add(Validate.Presence, {
+                failureMessage:"This field is required"}
+            );
+            var dom4 = document.querySelector('#form37 #field4');
+            var field4 = new LiveValidation(dom4, {
+                validMessage: "", onlyOnBlur: false, wait: 300}
+            );
+            field4.add(Validate.Custom, {
+                against: function(value) {
+                    return !value.match(/(telnet|ftp|https?):\/\/(?:[a-z0-9][a-z0-9-]{0,61}[a-z0-9]\.|[a-z0-9]\.)+[a-z]{2,63}/i);
+                }
+                , failureMessage: "Value must not contain any URL's"}
+            );
+            field4.add(Validate.Length, {
+                tooShortMessage:"Invalid length for field value", tooLongMessage: "Invalid length for field value",  minimum: 0, maximum: 35}
+            );
+            function resetSubmitButton(e){
+                var submitButtons = e.target.form.getElementsByClassName('submit-button');
+                for(var i=0;i<submitButtons.length;i++){
+                    submitButtons[i].disabled = false;
+                }
+            }
+            function addChangeHandler(elements){
+                for(var i=0; i<elements.length; i++){
+                    elements[i].addEventListener('change', resetSubmitButton);
+                }
+            }
+            var form = document.getElementById('form37');
+            addChangeHandler(form.getElementsByTagName('input'));
+            addChangeHandler(form.getElementsByTagName('select'));
+            addChangeHandler(form.getElementsByTagName('textarea'));
+            var nodes = document.querySelectorAll('#form37 input[data-subscription]');
+            if (nodes) {
+                for (i = 0, len = nodes.length; i < len; i++) {
+                    var status = nodes[i].dataset ? nodes[i].dataset.subscription : nodes[i].getAttribute('data-subscription');
+                    if(status ==='true') {
+                        nodes[i].checked = true;
+                    }
+                }
+            };
+            var nodes = document.querySelectorAll('#form37 select[data-value]');
+            if (nodes) {
+                for (var i = 0; i < nodes.length; i++) {
+                    var node = nodes[i];
+                    var selectedValue = node.dataset ? node.dataset.value : node.getAttribute('data-value');
+                    if (selectedValue) {
+                        for (var j = 0; j < node.options.length; j++) {
+                            if(node.options[j].value === selectedValue) {
+                                node.options[j].selected = 'selected';
+                                break;
+                            }
+                        }
+                    }
+                }
+            }
+        </script>
+    </div>
+</div>
+
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
+<!-- Preloader -->
+<script type="text/javascript">
+    //<![CDATA[
+    $(window).load(function() { // makes sure the whole site is loaded
+        $('#status').fadeOut(); // will first fade out the loading animation
+        $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
+        $('body').delay(350).css({'overflow':'visible'});
+    })
+    //]]>
+</script>
+</body>
+</html>
